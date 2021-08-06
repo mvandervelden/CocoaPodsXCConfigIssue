@@ -13,19 +13,18 @@
 		468CC19926BD367100F1A340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468CC19726BD367100F1A340 /* Main.storyboard */; };
 		468CC19B26BD367400F1A340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468CC19A26BD367400F1A340 /* Assets.xcassets */; };
 		468CC19E26BD367400F1A340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468CC19C26BD367400F1A340 /* LaunchScreen.storyboard */; };
-		468CC1BD26BD3B7300F1A340 /* CocoaPodsXCConfigIssueFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468CC1BC26BD3B7300F1A340 /* CocoaPodsXCConfigIssueFramework.framework */; };
-		468CC1BE26BD3B7300F1A340 /* CocoaPodsXCConfigIssueFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 468CC1BC26BD3B7300F1A340 /* CocoaPodsXCConfigIssueFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		468CC1FA26BD721F00F1A340 /* CocoaPodsXCConfigIssueFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 468CC1F826BD721F00F1A340 /* CocoaPodsXCConfigIssueFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ABEF74F690AF9D275E58365C /* Pods_CocoaPodsXCConfigIssue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201C03C966D719C1BBA8EAD6 /* Pods_CocoaPodsXCConfigIssue.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		468CC1BF26BD3B7300F1A340 /* Embed Frameworks */ = {
+		468CC1FB26BD721F00F1A340 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				468CC1BE26BD3B7300F1A340 /* CocoaPodsXCConfigIssueFramework.framework in Embed Frameworks */,
+				468CC1FA26BD721F00F1A340 /* CocoaPodsXCConfigIssueFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,7 +42,7 @@
 		468CC19A26BD367400F1A340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		468CC19D26BD367400F1A340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		468CC19F26BD367400F1A340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		468CC1BC26BD3B7300F1A340 /* CocoaPodsXCConfigIssueFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaPodsXCConfigIssueFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		468CC1F826BD721F00F1A340 /* CocoaPodsXCConfigIssueFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaPodsXCConfigIssueFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4789567A6E3B76A40D03B7 /* Pods-CocoaPodsXCConfigIssue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsXCConfigIssue.debug.xcconfig"; path = "Target Support Files/Pods-CocoaPodsXCConfigIssue/Pods-CocoaPodsXCConfigIssue.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,7 +51,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				468CC1BD26BD3B7300F1A340 /* CocoaPodsXCConfigIssueFramework.framework in Frameworks */,
 				ABEF74F690AF9D275E58365C /* Pods_CocoaPodsXCConfigIssue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,7 +93,6 @@
 		CCF5662C9970EE87F52FE3D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				468CC1BC26BD3B7300F1A340 /* CocoaPodsXCConfigIssueFramework.framework */,
 				201C03C966D719C1BBA8EAD6 /* Pods_CocoaPodsXCConfigIssue.framework */,
 			);
 			name = Frameworks;
@@ -121,7 +118,7 @@
 				468CC18A26BD367100F1A340 /* Sources */,
 				468CC18B26BD367100F1A340 /* Frameworks */,
 				468CC18C26BD367100F1A340 /* Resources */,
-				468CC1BF26BD3B7300F1A340 /* Embed Frameworks */,
+				468CC1FB26BD721F00F1A340 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
