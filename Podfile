@@ -12,6 +12,10 @@ target 'CocoaPodsXCConfigIssueFramework' do
   project 'Components/CocoaPodsXCConfigIssueFramework/CocoaPodsXCConfigIssueFramework'
 
   framework_pods
+
+  target 'CocoaPodsXCConfigIssueFrameworkTests' do
+    inherit! :complete
+  end
 end
 
 target 'CocoaPodsXCConfigIssue' do
