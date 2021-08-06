@@ -6,13 +6,13 @@ platform :ios, '14.0'
 use_frameworks!
 # inhibit_all_warnings!
 
-# workspace 'CocoaPodsXCConfigIssue'
+workspace 'CocoaPodsXCConfigIssue'
 
-# target 'CocoaPodsXCConfigIssueFramework' do
-#     project 'Components/CocoaPodsXCConfigIssueFramework/CocoaPodsXCConfigIssueFramework'
+target 'CocoaPodsXCConfigIssueFramework' do
+    project 'Components/CocoaPodsXCConfigIssueFramework/CocoaPodsXCConfigIssueFramework'
 
-#     pod 'Alamofire'
-# end
+    pod 'Alamofire'
+end
 
 target 'CocoaPodsXCConfigIssue' do
     pod 'Sourcery'

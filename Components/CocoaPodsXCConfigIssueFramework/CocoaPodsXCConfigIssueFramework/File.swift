@@ -6,7 +6,10 @@
 //
 
 import Foundation
+import Alamofire
 
 public class File {
+    var alamofireSession: Session?
+
     public init() {}
 }
