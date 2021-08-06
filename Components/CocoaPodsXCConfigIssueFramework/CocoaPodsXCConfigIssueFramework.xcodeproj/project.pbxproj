@@ -35,6 +35,9 @@
 		468CC1D426BD583900F1A340 /* CocoaPodsXCConfigIssueFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaPodsXCConfigIssueFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		468CC1D626BD583900F1A340 /* CocoaPodsXCConfigIssueFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaPodsXCConfigIssueFrameworkTests.swift; sourceTree = "<group>"; };
 		468CC1D826BD583900F1A340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		468CC1E026BD5A6100F1A340 /* target.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = target.debug.xcconfig; sourceTree = "<group>"; };
+		468CC1E126BD5D2F00F1A340 /* target.common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = target.common.xcconfig; sourceTree = "<group>"; };
+		468CC1E226BD5D8100F1A340 /* target.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = target.release.xcconfig; sourceTree = "<group>"; };
 		4E3DF8BE87FA270D722484A7 /* Pods_CocoaPodsXCConfigIssueFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaPodsXCConfigIssueFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76ED43B65005BA3254BDBE5C /* Pods-CocoaPodsXCConfigIssueFramework-CocoaPodsXCConfigIssueFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsXCConfigIssueFramework-CocoaPodsXCConfigIssueFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-CocoaPodsXCConfigIssueFramework-CocoaPodsXCConfigIssueFrameworkTests/Pods-CocoaPodsXCConfigIssueFramework-CocoaPodsXCConfigIssueFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		815AB35F34BC292E466ED0CB /* Pods-CocoaPodsXCConfigIssueFramework-CocoaPodsXCConfigIssueFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsXCConfigIssueFramework-CocoaPodsXCConfigIssueFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-CocoaPodsXCConfigIssueFramework-CocoaPodsXCConfigIssueFrameworkTests/Pods-CocoaPodsXCConfigIssueFramework-CocoaPodsXCConfigIssueFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +101,9 @@
 			children = (
 				468CC1CC26BD501E00F1A340 /* project.debug.xcconfig */,
 				468CC1CD26BD501E00F1A340 /* project.release.xcconfig */,
+				468CC1E126BD5D2F00F1A340 /* target.common.xcconfig */,
+				468CC1E026BD5A6100F1A340 /* target.debug.xcconfig */,
+				468CC1E226BD5D8100F1A340 /* target.release.xcconfig */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -348,54 +354,15 @@
 		};
 		468CC1B826BD3B1A00F1A340 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBE3AF758B51E9005B38953C /* Pods-CocoaPodsXCConfigIssueFramework.debug.xcconfig */;
+			baseConfigurationReference = 468CC1E026BD5A6100F1A340 /* target.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = W4ANNK34Q2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CocoaPodsXCConfigIssueFramework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mmvdv.CocoaPodsXCConfigIssueFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		468CC1B926BD3B1A00F1A340 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4F9721803A9DA9F47F1C19D /* Pods-CocoaPodsXCConfigIssueFramework.release.xcconfig */;
+			baseConfigurationReference = 468CC1E226BD5D8100F1A340 /* target.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = W4ANNK34Q2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CocoaPodsXCConfigIssueFramework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mmvdv.CocoaPodsXCConfigIssueFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

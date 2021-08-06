@@ -1,0 +1,4 @@
+#include "../../Pods/Target Support Files/Pods-CocoaPodsXCConfigIssueFramework/Pods-CocoaPodsXCConfigIssueFramework.release.xcconfig"
+#include "target.common.xcconfig"
+
+SWIFT_OPTIMIZATION_LEVEL = -Onone

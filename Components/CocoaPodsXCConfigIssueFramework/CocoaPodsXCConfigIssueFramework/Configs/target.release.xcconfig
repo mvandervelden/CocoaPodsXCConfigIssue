@@ -1,0 +1,2 @@
+#include "../../Pods/Target Support Files/Pods-CocoaPodsXCConfigIssueFramework/Pods-CocoaPodsXCConfigIssueFramework.debug.xcconfig"
+#include "target.common.xcconfig"
