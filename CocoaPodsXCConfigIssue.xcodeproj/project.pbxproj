@@ -13,7 +13,6 @@
 		468CC19926BD367100F1A340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468CC19726BD367100F1A340 /* Main.storyboard */; };
 		468CC19B26BD367400F1A340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468CC19A26BD367400F1A340 /* Assets.xcassets */; };
 		468CC19E26BD367400F1A340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468CC19C26BD367400F1A340 /* LaunchScreen.storyboard */; };
-		468CC21926BD781800F1A340 /* CocoaPodsXCConfigIssueFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468CC21626BD77F200F1A340 /* CocoaPodsXCConfigIssueFramework.framework */; };
 		ABEF74F690AF9D275E58365C /* Pods_CocoaPodsXCConfigIssue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201C03C966D719C1BBA8EAD6 /* Pods_CocoaPodsXCConfigIssue.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				468CC21926BD781800F1A340 /* CocoaPodsXCConfigIssueFramework.framework in Frameworks */,
 				ABEF74F690AF9D275E58365C /* Pods_CocoaPodsXCConfigIssue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
