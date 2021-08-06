@@ -13,9 +13,12 @@
 		468CC19926BD367100F1A340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468CC19726BD367100F1A340 /* Main.storyboard */; };
 		468CC19B26BD367400F1A340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468CC19A26BD367400F1A340 /* Assets.xcassets */; };
 		468CC19E26BD367400F1A340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468CC19C26BD367400F1A340 /* LaunchScreen.storyboard */; };
+		ABEF74F690AF9D275E58365C /* Pods_CocoaPodsXCConfigIssue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201C03C966D719C1BBA8EAD6 /* Pods_CocoaPodsXCConfigIssue.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		201C03C966D719C1BBA8EAD6 /* Pods_CocoaPodsXCConfigIssue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaPodsXCConfigIssue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F148B8804D6696B28ED0280 /* Pods-CocoaPodsXCConfigIssue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsXCConfigIssue.release.xcconfig"; path = "Target Support Files/Pods-CocoaPodsXCConfigIssue/Pods-CocoaPodsXCConfigIssue.release.xcconfig"; sourceTree = "<group>"; };
 		468CC18E26BD367100F1A340 /* CocoaPodsXCConfigIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaPodsXCConfigIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		468CC19126BD367100F1A340 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		468CC19326BD367100F1A340 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		468CC19A26BD367400F1A340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		468CC19D26BD367400F1A340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		468CC19F26BD367400F1A340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4789567A6E3B76A40D03B7 /* Pods-CocoaPodsXCConfigIssue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsXCConfigIssue.debug.xcconfig"; path = "Target Support Files/Pods-CocoaPodsXCConfigIssue/Pods-CocoaPodsXCConfigIssue.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABEF74F690AF9D275E58365C /* Pods_CocoaPodsXCConfigIssue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				468CC19026BD367100F1A340 /* CocoaPodsXCConfigIssue */,
 				468CC18F26BD367100F1A340 /* Products */,
+				E37B72F89906ABA04D77804B /* Pods */,
+				CCF5662C9970EE87F52FE3D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = CocoaPodsXCConfigIssue;
 			sourceTree = "<group>";
 		};
+		CCF5662C9970EE87F52FE3D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				201C03C966D719C1BBA8EAD6 /* Pods_CocoaPodsXCConfigIssue.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E37B72F89906ABA04D77804B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF4789567A6E3B76A40D03B7 /* Pods-CocoaPodsXCConfigIssue.debug.xcconfig */,
+				2F148B8804D6696B28ED0280 /* Pods-CocoaPodsXCConfigIssue.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 468CC1A226BD367400F1A340 /* Build configuration list for PBXNativeTarget "CocoaPodsXCConfigIssue" */;
 			buildPhases = (
+				569811A83E64426040EBEEFF /* [CP] Check Pods Manifest.lock */,
 				468CC18A26BD367100F1A340 /* Sources */,
 				468CC18B26BD367100F1A340 /* Frameworks */,
 				468CC18C26BD367100F1A340 /* Resources */,
@@ -131,6 +157,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		569811A83E64426040EBEEFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CocoaPodsXCConfigIssue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		468CC18A26BD367100F1A340 /* Sources */ = {
@@ -283,6 +334,7 @@
 		};
 		468CC1A326BD367400F1A340 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4789567A6E3B76A40D03B7 /* Pods-CocoaPodsXCConfigIssue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +354,7 @@
 		};
 		468CC1A426BD367400F1A340 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F148B8804D6696B28ED0280 /* Pods-CocoaPodsXCConfigIssue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
