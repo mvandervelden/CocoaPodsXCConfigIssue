@@ -8,16 +8,20 @@ use_frameworks!
 
 workspace 'CocoaPodsXCConfigIssue'
 
+def framework_pods
+  pod 'Alamofire'
+end
+
 target 'CocoaPodsXCConfigIssueFramework' do
     project 'Components/CocoaPodsXCConfigIssueFramework/CocoaPodsXCConfigIssueFramework'
 
-    pod 'Alamofire'
+    framework_pods
 end
 
 target 'CocoaPodsXCConfigIssue' do
     pod 'Sourcery'
 
-    # someapp_pods
+    framework_pods
 end
 
 post_install do |installer|
