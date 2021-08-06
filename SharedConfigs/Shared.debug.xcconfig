@@ -1,0 +1,21 @@
+#include "Shared.common.xcconfig"
+
+// Architectures
+ONLY_ACTIVE_ARCH = YES
+
+// Build Options
+ENABLE_TESTABILITY = YES
+
+//Apple Clang
+GCC_OPTIMIZATION_LEVEL = 0
+
+// Swift Compiler - Code Generation
+SWIFT_COMPILATION_MODE = singlefile
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+
+// Swift Compiler - Custom Flags
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG
+OTHER_SWIFT_FLAGS = -DDEV_HOOKS
+
+// User-Defined
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE
